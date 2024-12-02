@@ -1,16 +1,50 @@
-# investimento_app
+# Comparador de Investimentos 📊
 
-A new Flutter project.
+Aplicativo desenvolvido em **Flutter** que permite comparar dois investimentos baseados em parâmetros fornecidos pelo usuário, como capital inicial, aplicação mensal, período em meses e taxa de juros mensal. Ele calcula os montantes finais e exibe os resultados em um formato detalhado e intuitivo.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🛠️ Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- Inserir dados para dois investimentos, incluindo:
+  - **Capital inicial**.
+  - **Aplicação mensal**.
+  - **Período em meses**.
+  - **Taxa de juros mensal (%)**.
+- Calcular o montante final de cada investimento com base nos dados fornecidos.
+- Gerar uma tabela detalhada com o rendimento e o montante acumulado mês a mês.
+- Comparar os dois investimentos e exibir um resumo final para facilitar a análise.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🚀 Tecnologias Utilizadas
+
+- **[Flutter](https://flutter.dev/)**: Framework para desenvolvimento de aplicativos multiplataforma.
+- **Dart**: Linguagem de programação utilizada pelo Flutter.
+
+---
+
+## 🖥️ Como Instalar e Executar
+
+Siga estas etapas para clonar e executar o aplicativo localmente:
+
+1. **Clone o repositório:**
+
+   ```bash
+   git clone https://github.com/seu-usuario/comparador-de-investimentos.git
+
+
+2. **Acesse o diretorio da Projeto**
+
+    ```bash
+    cd comparador-de-investimentos
+
+3. **Instale as dependências necessárias:**
+
+    ```bash
+    flutter pub get
+
+4. **Execute o aplicativo em um dispositivo ou emulador:**
+
+    ```bash
+    flutter run
